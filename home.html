@@ -1,0 +1,99 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>::.  .::</title>
+
+<link rel="stylesheet" href="scripts/padrao.css"  type="text/css"  media="screen">
+<script language="JavaScript" src="scripts/scripts.js"></script>
+<script language="JavaScript" src="scripts/overlib.js"></script>
+<script language="javascript" src="scripts/lytebox.js"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+function openPictureWindow_Fever(imageType,imageName,imageWidth,imageHeight,alt,posLeft,posTop) {  // v4.01
+	newWindow = window.open("","newWindow","width="+imageWidth+",height="+imageHeight+",scrollbars=no,left="+posLeft+",top="+posTop);
+	newWindow.document.open();
+	newWindow.document.write('<html><title>'+alt+'</title><body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">'); 
+	if (imageType == "swf"){
+	newWindow.document.write('<object classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0\" width=\"'+imageWidth+'\" height=\"'+imageHeight+'\">');
+	newWindow.document.write('<param name=movie value=\"'+imageName+'\"><param name=quality value=high>');
+	newWindow.document.write('<embed src=\"'+imageName+'\" quality=high pluginspage=\"http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash\" type=\"application/x-shockwave-flash\" width=\"'+imageWidth+'\" height=\"'+imageHeight+'\">');
+	newWindow.document.write('</embed></object>');	}else{
+	newWindow.document.write('<img src=\"'+imageName+'\" width='+imageWidth+' height='+imageHeight+' alt=\"'+alt+'\">'); 	}
+	newWindow.document.write('</body></html>');
+	newWindow.document.close();
+	newWindow.focus();
+}
+</script>
+
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0" onLoad="atualizaIframe();">
+<div id="container">
+<table width="950" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="20" height="455"></td>	
+    <td width="165" valign="top">
+		<table width="165" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="img/a.jpg"></td>
+  </tr>
+  <tr>
+    <td><a href="folder2011.pdf" target="_blank"><img src="img/b.jpg" border="0"></a></td>
+  </tr>
+  <tr>
+    <td><img src="img/c.jpg"></td>
+  </tr>
+  <tr>
+    <td><a href="javascript:;" onClick="openPictureWindow_Fever('jpg','img/tabela.jpg','800','500','','100','130')"><img src="img/d.jpg" border="0"></a></td>
+  </tr>
+</table>
+</td>	
+    <td width="20"></td>	
+    <td width="539" valign="top">
+	<table width="539" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="49" background="img/e.jpg"></td>
+  </tr>
+  <tr>
+    <td height="172" valign="top" class="cinza12"><img src="img/k.jpg" align="left" hspace="10" vspace="0">
+<div align="justify"><img src="img/bemtit.jpg" width="263" height="49">
+<br>
+Acompanhando as tendências tecnologicas, e principalmente preocupada em atender com excelência nossos clientes, lançamos nosso novo site. Com esta ferramenta pretendemos manter uma interatividade e agilidade no atendimento e no relacionamento.<br>
+<br>
+A MAEL LUMINÁRIAS desde já agradece sua visita e coloca-se a sua disposição para eventuais esclarecimentos, dúvidas e sugestões.
+</div>	
+	</td>
+  </tr>
+  <tr>
+    <td height="62" background="img/f.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="img/g.jpg" border="0"></td>
+  </tr>
+</table>
+
+	</td>	
+    <td width="20"></td>	
+    <td width="166" valign="top">
+	<table width="166" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="img/h.jpg"></td>
+  </tr>
+  <tr>
+    <td height="118"><a href="cotacao.php" target="_blank"><img src="img/cot.jpg" border="0"></a></td>
+  </tr>
+  <tr>
+    <td><img src="img/i.jpg"></td>
+  </tr>
+  <tr>
+    <td><a href="contato.php" target="meio"><img src="img/j.jpg" border="0"></a></td>
+  </tr>
+</table>
+
+	</td>	
+    <td width="20"></td>	
+  </tr>	
+</table>
+</div>
+</body>
+</html>

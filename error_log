@@ -1,0 +1,4 @@
+[17-Sep-2012 03:37:50 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/mael/public_html/produtos2.php on line 53
+[17-Sep-2012 03:37:50 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/mael/public_html/produtos2.php on line 56
+[17-Sep-2012 03:37:50 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/mael/public_html/produtos2.php on line 56
+[17-Sep-2012 03:37:50 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/mael/public_html/produtos2.php on line 53
