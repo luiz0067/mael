@@ -1,0 +1,200 @@
+<html>
+<head>
+<link rel="stylesheet" href="../scripts/padrao.css"  type="text/css"  media="screen">
+<script language="JavaScript" src="../scripts/scripts.js"></script>
+<script language="JavaScript" src="../scripts/overlib.js"></script>
+<script language="javascript" src="../scripts/lytebox.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Mael Luminárias</title>
+
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0" bgcolor="#FFFFFF" onLoad="atualizaIframe();">
+<div id="container">
+
+<form name="formulario" method="post" action="formmail.php">
+  <input type="hidden" name="obrigatorio" value="Nome,CPF,RG,Razão_Social,CNPJ,IE,Endereço,Cidade,Estado,CEP,email">
+<input type="hidden" name="destinatario" value="financeiro@maelluminarias.com.br">
+
+            <input type="hidden" name="assunto" value="Quero ser representante - Site Mael">
+              <!-- <input type="hidden" name="campos_faltando_redirecionar" value="pagina_erro.html"> -->
+              <input type="hidden" name="redirecionar" value="obrigado.html">
+			  <br>
+			  <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="texto">
+  <tr>
+    <td align="center">Se você tem interesse em representar nossa empresa junto a sua região, por favor, preencha seu cadastro abaixo, que entraremos em contato com você o mais breve possível.<br><br><br></td>
+  </tr>
+</table>
+
+                  <table width="470" border="0" cellspacing="0" cellpadding="0" class="texto" align="center">
+  <tr>
+                        <td width="100" height="20"><font color="#0066cc">Cadastro Tipo:</font></td>
+                        
+                        <td><input type="radio" name="Tipo" value="Pessoa Física" size="55" class="menu2"> <font color="#0066cc">Pessoa Física</font> &nbsp; <input type="radio" name="Tipo" value="Pessoa Jurídica" size="55" class="menu2"> <font color="#0066cc">Pessoa Jurídica</font></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">Nome:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="Nome" size="55" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+   <tr>
+                        <td height="20" align="right"><font color="#0066cc">CPF:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="CPF" size="25" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">RG:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="RG" size="25" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+    <tr>
+                        <td height="20" align="right"><font color="#0066cc">Razão Social:</font> &nbsp; </td>
+            <td><input type="text" name="Razão_Social" size="55" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+			
+  </tr>
+     <tr>
+                        <td height="20" align="right"><font color="#0066cc">CNPJ:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="CNPJ" size="25" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">IE:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="IE" size="25" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">Responsável:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="Responsável" size="55" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">Endereço:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="Endereço" size="55" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  </table>
+  
+  <table width="470" border="0" cellspacing="0" cellpadding="0" class="texto" align="center">
+  <tr>
+                        <td height="20" align="right" width="100"><font color="#0066cc">CEP:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="CEP" maxlength="10" size="15" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">Fone/Fax:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="Fone/Fax:" size="25" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        
+			<td width="100" height="20" align="right"><font color="#0066cc">Cidade:</font> &nbsp; </td>
+            <td width="140"><input type="text" name="Cidade" size="40" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+			<td width="35" align="center"><font color="#0066cc">UF:</font></td>
+                  <td> <select class="texto" name="Estado" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc">
+                      <option class="texto" value="Acre">AC</option>
+                      <option class="texto" value="Alagoas">AL</option>
+                      <option class="texto" value="Amapá">AP</option>
+                      <option class="texto" value="Amazonas">AM</option>
+                      <option class="texto" value="Bahia">BA</option>
+                      <option class="texto" value="Ceará">CE</option>
+                      <option class="texto" value="Distrito Federal">DF</option>
+                      <option class="texto" value="Espirito Santo">ES</option>
+                      <option class="texto" value="Goiás">GO</option>
+                      <option class="texto" value="Maranhão">MA</option>
+                      <option class="texto" value="Mato Grosso">MT</option>
+                      <option class="texto" value="Mato Grosso do Sul">MS</option>
+                      <option class="texto" value="Minas Gerais">MG</option>
+                      <option class="texto" value="Pará">PA</option>
+                      <option class="texto" value="Paraíba">PB</option>
+                      <option class="texto" value="Paraná" selected>PR</option>
+                      <option class="texto" value="Pernambuco">PE</option>
+                      <option class="texto" value="Piauí">PI</option>
+                      <option class="texto" value="Rio de Janeiro">RJ</option>
+                      <option class="texto" value="Rio Grande do Norte">RN</option>
+                      <option class="texto" value="Rio Grande do Sul">RS</option>
+                      <option class="texto" value="Rondônia">RO</option>
+                      <option class="texto" value="Roraima">RR</option>
+                      <option class="texto" value="Santa Catarina">SC</option>
+                      <option class="texto" value="São Paulo">SP</option>
+                      <option class="texto" value="Sergipe">SE</option>
+                      <option class="texto" value="Tocantins">TO</option>
+                    </select></td>
+			
+  </tr>
+  </table>
+  
+  <table width="470" border="0" cellspacing="0" cellpadding="0" class="texto" align="center">
+ 
+  <tr>
+                        <td height="20" align="right"></td>
+                        
+                  <td></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">Ref. Comercial 1:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="Ref. Comercial 1" size="55" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">Telefone 1:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="Telefone 1" size="25" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">Ref. Comercial 2:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="Ref. Comercial 2" size="55" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">Telefone 2:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="Telefone 2" size="25" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">Ref. Comercial 3:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="Ref. Comercial 3" size="55" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">Telefone 3:</font> &nbsp; </td>
+                        
+                  <td><input type="text" name="Telefone 3" size="25" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+  </tr>
+<tr>
+                        <td height="20" align="right"></td>
+                        
+                  <td></td>
+  </tr>
+  
+</table>
+
+
+
+<table width="470" border="0" cellspacing="0" cellpadding="0" class="menu2" align="center">
+  <tr>
+                        <td height="20" align="right"><font color="#0066cc">E-mail:</font> &nbsp; </td>
+            <td><input type="text" name="email" size="55" class="menu2" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></td>
+			
+  </tr><tr>
+                  <td width="100" valign="top" height="60" align="right"><font color="0066cc">Observações:</font> &nbsp; </td>
+                  <td width="370"><textarea rows="7" name="Observações" cols="54" class="menu2" id="textarea" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc"></textarea></td>
+  </tr>
+</table>
+
+<br>
+			<div align="center">
+          <input class="texto" type="submit" name="Enviar" value="Enviar" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc">&nbsp;&nbsp;&nbsp;
+          <input class="texto" type="reset" name="Limpar" value="Limpar" style="color: #006600; background-color: #FFFFFF; border: 1 solid #0066cc">
+</div>
+</form>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="80" valign="middle" align="center" class="texto"><a href="javascript:history.back()" target="_self"><font color="#cc0000"><strong>&laquo; voltar</strong></font></a></td>
+  </tr>
+</table>
+
+
+
+</div>
+</body>
+</html>
