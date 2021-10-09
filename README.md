@@ -7,14 +7,7 @@ create user adminstratition in usuario table by command sql
 
 "insert into usuario (usuario,senha) value('your username','password')"
 
-set var in /adm/conecta.php
+set var in /scripts/conexao.inc.php  connect database
 
-$servername = "your server";
-
-$username = "user";
-
-$password = "senha";
-
-$database = "database";
 
 extract /admin/fckeditor.zip in /admin/fckeditor
